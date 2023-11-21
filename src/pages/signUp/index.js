@@ -1,18 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/googleLogo.jpg";
+import bgImg from "../../assets/background.jpg"
+import SVG from "../../components/SVG";
 
 const SignUp = () => {
   return (
-    <div className="flex  flex-row border-16  font-sans text-sm ml-44 ">
-      <div className="flex flex-row justify-center items-center py-8  md:h-screen lg:py-0 w-1/2 ">
+    <div className="flex  flex-row border-16  font-sans text-sm ml-44  ">
+      <div className="flex flex-row justify-center items-center py-8  md:h-screen lg:py-0 w-[52%]">
         <div className="w-full rounded-lg  sm:max-w-md xl:p-0 ">
           <h1 className="text-3xl font-bold   text-blue-950">Sign In</h1>
           <div className=" mt-2 ">
             <p className="text-sm  text-gray-400   mb-4 ">
               Enter Your E-mail and Password to Login
             </p>
-            <form className="space-y-4 md:space-y-8" action="#">
+            <form className="space-y-4 md:space-y-6" action="#">
               <div>
                 <button
                   type="button"
@@ -87,6 +89,10 @@ const SignUp = () => {
             </form>
           </div>
         </div>
+      </div>
+
+      <div className="w-1/2 h-screen  rounded-bl-[180px] bg-[url('https://s3-alpha-sig.figma.com/img/cc6f/992d/a23f25d992a4db354584463d19897b48?Expires=1701648000&Signature=EXZiA7mu~xV9zsDY5P0C9XruYwZBG1gn-8fvJ7fy8kB37H-UbHIcVnKMFradshnAFXzbRuS62ad~62~UhGECExpl4h2NbC3zahEkFkywk-yMqcIKVNxuZ0~sk7XQSL35yq0UzKQBKzZalf8r2YrPHSwiAe6j4dK3PVwon0IweADzrZNi-z7CgRgxP-8ZHfSKyEcJYZiCT5iwpe8BxFKn8a~nW9jO2fyW121i9CzZgcOzUn9gDksxSCCu~TnwdiFN3yQyShmpMVQs3X~nvG-xwXy5J6W1WGPrTiuykxO1uG9IjHtf8wXj6if1frU8edjfrL~6JJLUDB~iu2w0hmaY6g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')] ">
+
       </div>
     </div>
   );
