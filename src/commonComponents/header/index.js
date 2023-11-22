@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="border-2 border-red-600 w-[85%]  ">
-      <div className=" bg-blue-100 bg-opacity-25 w-[80%] ml-8 h-20 rounded-lg fixed  mt-4 ">
+    
+      <div className=" bg-blue-200 bg-opacity-25 w-[80%]  h-20 rounded-lg fixed  mt-6  ml-8">
         <div className="flex flex-row justify-between  items-center">
           <div>
             <Button
@@ -75,7 +75,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+ 
   );
 };
 

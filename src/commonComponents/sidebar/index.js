@@ -5,8 +5,8 @@ import MainDashbaord from "../../pages/mainDashboard";
 
 const Sidebar = () => {
   return (
-    <div className="w-[300px] flex justify-end h-screen border border-red-600 ">
-      <div className="border-2  border-green-600 w-64">
+    <div className="w-[270px] flex  h-screen px-4">
+      <div >
         <div className="flex flex-row  text-3xl mt-12 ">
           <div className="w-full flex flex-row justify-center">
             <p className="font-bold mr-4 ">Horizon </p> Free
