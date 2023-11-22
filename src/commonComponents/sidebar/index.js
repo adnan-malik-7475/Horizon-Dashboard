@@ -5,17 +5,17 @@ import MainDashbaord from "../../pages/mainDashboard";
 
 const Sidebar = () => {
   return (
-    <div className="w-[270px] flex  h-screen px-4">
+    <div className="w-[275px] flex  h-screen px-4">
       <div >
-        <div className="flex flex-row  text-3xl mt-12 ">
-          <div className="w-full flex flex-row justify-center">
-            <p className="font-bold mr-4 ">Horizon </p> Free
+        <div className="flex flex-row  text-2xl mt-12  ml-8">
+          <div className="w-full flex flex-row justify-center ">
+            <p className="font-bold mr-[3px] ml-2 mt-[2px] ">HORIZON</p> FREE
           </div>
         </div>
 
-        <hr  className="mt-4"/>
-
-        <div className=" flex flex-row  mt-8 text-gray-500">
+        <hr  className="mt-6"/>
+<div className="ml-6 text-[14px]">
+        <div className=" flex flex-row  mt-[36px] text-gray-500 ">
           <SVG
             width={24}
             height={24}
@@ -36,7 +36,7 @@ const Sidebar = () => {
           </Link>
         </div>
 
-        <div className=" flex flex-row  mt-6 text-gray-500">
+        <div className=" flex flex-row  mt-4 text-gray-500">
           <SVG
             width={24}
             height={24}
@@ -52,7 +52,7 @@ const Sidebar = () => {
           </Link>
         </div>
 
-        <div className="flex flex-row  mt-6 text-gray-500">
+        <div className="flex flex-row  mt-4 text-gray-500">
           <SVG
             width={24}
             height={24}
@@ -69,7 +69,7 @@ const Sidebar = () => {
             </button>{" "}
           </Link>
         </div>
-        <div className=" flex flex-row  mt-6  text-gray-500">
+        <div className=" flex flex-row  mt-4  text-gray-500">
           <SVG
             width={24}
             height={24}
@@ -84,7 +84,7 @@ const Sidebar = () => {
             </button>{" "}
           </Link>        </div>
 
-        <div className=" flex flex-row  mt-6 text-gray-500">
+        <div className=" flex flex-row  mt-4 text-gray-500">
           <SVG
             width={24}
             height={24}
@@ -97,7 +97,7 @@ const Sidebar = () => {
             Sign In
             </button>{" "}
           </Link>                </div>
-        <div className=" flex flex-row  mt-6 text-gray-500">
+        <div className=" flex flex-row  mt-4 text-gray-500">
           <SVG
             width={24}
             height={24}
@@ -110,7 +110,7 @@ const Sidebar = () => {
             RTL Admin
             </button>{" "}
           </Link>                </div>
-      </div>
+          </div> </div>
     </div>
   );
 };
