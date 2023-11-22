@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/googleLogo.jpg";
-import bgImg from "../../assets/background.jpg"
 import SVG from "../../components/SVG";
 
 const SignUp = () => {
@@ -93,6 +92,17 @@ const SignUp = () => {
 
       <div className="w-1/2 h-screen  rounded-bl-[180px] bg-[url('https://s3-alpha-sig.figma.com/img/cc6f/992d/a23f25d992a4db354584463d19897b48?Expires=1701648000&Signature=EXZiA7mu~xV9zsDY5P0C9XruYwZBG1gn-8fvJ7fy8kB37H-UbHIcVnKMFradshnAFXzbRuS62ad~62~UhGECExpl4h2NbC3zahEkFkywk-yMqcIKVNxuZ0~sk7XQSL35yq0UzKQBKzZalf8r2YrPHSwiAe6j4dK3PVwon0IweADzrZNi-z7CgRgxP-8ZHfSKyEcJYZiCT5iwpe8BxFKn8a~nW9jO2fyW121i9CzZgcOzUn9gDksxSCCu~TnwdiFN3yQyShmpMVQs3X~nvG-xwXy5J6W1WGPrTiuykxO1uG9IjHtf8wXj6if1frU8edjfrL~6JJLUDB~iu2w0hmaY6g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')] ">
 
+
+      <SVG
+            width={64}
+            height={64}
+            pathName="vector"
+            viewBox="0 0 24 24"
+            strokeColor="black"
+            strokeLinecap="round"
+            strokeWidth="1.5"
+            fill="black"
+          />
       </div>
     </div>
   );

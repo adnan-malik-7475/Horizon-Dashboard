@@ -5,7 +5,7 @@ import MainDashbaord from "../../pages/mainDashboard";
 
 const Sidebar = () => {
   return (
-    <div className="w-[300px] flex justify-end h-screen border border-red-600">
+    <div className="w-[300px] flex justify-end h-screen border border-red-600 ">
       <div className="border-2  border-green-600 w-64">
         <div className="flex flex-row  text-3xl mt-12 ">
           <div className="w-full flex flex-row justify-center">
@@ -13,15 +13,15 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <hr />
+        <hr  className="mt-4"/>
 
-        <div className=" flex flex-row  mt-12">
+        <div className=" flex flex-row  mt-8 text-gray-500">
           <SVG
             width={24}
             height={24}
             viewBox="0 0 32 32"
             pathName="Home"
-            strokeColor="black"
+            strokeColor="gray"
             strokeLinecap="round"
             strokeWidth="1.5"
             fill="black"
@@ -29,14 +29,14 @@ const Sidebar = () => {
 
           <Link to="/MainDashboard">
             {" "}
-            <button className="text-md font font-medium hover:bg-slate-300 ">
+            <button className="text-md font font-medium hover:bg-slate-300 ml-[10px]  ">
               {" "}
               Main Dashbaord{" "}
             </button>{" "}
           </Link>
         </div>
 
-        <div className=" flex flex-row  mt-6">
+        <div className=" flex flex-row  mt-6 text-gray-500">
           <SVG
             width={24}
             height={24}
@@ -46,13 +46,13 @@ const Sidebar = () => {
           />
 
           <Link to="/MarketPlace">
-            <button className="text-md font font-medium">
+            <button className="text-md font font-medium ml-[10px]" >
               NFT MarketPlace
             </button>{" "}
           </Link>
         </div>
 
-        <div className="flex flex-row  mt-6">
+        <div className="flex flex-row  mt-6 text-gray-500">
           <SVG
             width={24}
             height={24}
@@ -63,13 +63,13 @@ const Sidebar = () => {
 
           <Link to="/Datatables">
             {" "}
-            <button className="text-md font font-medium">
+            <button className="text-md font font-medium ml-[10px]">
               {" "}
               Data Tables
             </button>{" "}
           </Link>
         </div>
-        <div className=" flex flex-row  mt-6">
+        <div className=" flex flex-row  mt-6  text-gray-500">
           <SVG
             width={24}
             height={24}
@@ -79,12 +79,12 @@ const Sidebar = () => {
           />
 
 <Link to="/Profile">
-            <button className="text-md font font-medium">
+            <button className="text-md font font-medium ml-[10px] active:bg-black">
             Profile
             </button>{" "}
           </Link>        </div>
 
-        <div className=" flex flex-row  mt-6">
+        <div className=" flex flex-row  mt-6 text-gray-500">
           <SVG
             width={24}
             height={24}
@@ -93,11 +93,11 @@ const Sidebar = () => {
             fill="black"
           />
 <Link to="/SignUp">
-            <button className="text-md font font-medium">
+            <button className="text-md font font-medium ml-[10px] active:bg-black">
             Sign In
             </button>{" "}
           </Link>                </div>
-        <div className=" flex flex-row  mt-6">
+        <div className=" flex flex-row  mt-6 text-gray-500">
           <SVG
             width={24}
             height={24}
@@ -106,7 +106,7 @@ const Sidebar = () => {
             fill="black"
           />
 <Link to="/Admin">
-            <button className="text-md font font-medium">
+            <button className="text-md font font-medium ml-[10px]">
             RTL Admin
             </button>{" "}
           </Link>                </div>
