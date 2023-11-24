@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className=" bg-blue-200 bg-opacity-25 w-[81.2%]  h-20 rounded-lg fixed    mt-4  ml-8">
+    <div className=" bg-blue-200 bg-opacity-25 w-[81.2%]  h-20 rounded-lg fixed    mt-2  ml-8">
       <div className="flex flex-row justify-between  items-center">
         <div>
           <Button type="submit" size="xs" className="w-16 " variants="primary">

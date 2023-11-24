@@ -26,7 +26,7 @@ const Sidebar = () => {
               fill="black"
             />
 
-            <Link to="/MainDashboard">
+            <Link to="/">
               {" "}
               <button className="text-md font font-medium hover:bg-slate-300 ml-[10px]  ">
                 {" "}

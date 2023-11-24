@@ -39,13 +39,7 @@ const ComplexTable = () => {
     },
   ]);
 
-  const handleCheckboxChange = (index) => {
-    setTableData((prevTableData) => {
-      const updatedTableData = [...prevTableData];
-      updatedTableData[index].isChecked = !updatedTableData[index].isChecked;
-      return updatedTableData;
-    });
-  };
+ 
 
   return (
     // <div class="relative overflow-x-auto shadow-md sm:rounded-lg">

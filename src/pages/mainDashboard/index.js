@@ -36,7 +36,7 @@ const MainDashbaord = () => {
         <div className="w-full   bg-slate-100">
           <Header />
 
-          <div className="mt-32 w-[100rem] ">
+          <div className="mt-28 w-[100rem] ">
             <div class="grid grid-cols-6  ml-8 space-x-0  ">
               <Tag
                 isPrice={true}

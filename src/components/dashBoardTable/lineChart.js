@@ -4,6 +4,10 @@ const lineChartOptionsOverallRevenue = {
   title: {
     text: "Overall Revenue",
   },
+  tooltip: {},
+  legend: {
+    data: ["Your Legend"],
+  },
 
   xAxis: {
     type: "category",
