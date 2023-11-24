@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const MyTable = () => {
+const ComplexTable = () => {
   const [tableData, setTableData] = useState([
     {
       name: "Horizon UI PRO",
@@ -50,37 +50,25 @@ const MyTable = () => {
   return (
     // <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
     <table class="w-full text-sm text-left  text-gray-500 dark:text-gray-400 ">
-      <thead class="text-md">
+      <thead class="text-md ">
         <tr className="">
-          <th className="w-[2px] "></th>
           <th scope="col">Name</th>
           <th scope="col" class=" py-3">
-            Progress
-          </th>
-          <th scope="col" class="px-6 py-3">
-            Quantity
+            Status
           </th>
           <th scope="col" class="px-6 py-3">
             Date
+          </th>
+
+          <th scope="col" class="px-6 py-3">
+            Progress
           </th>
         </tr>
       </thead>
 
       <tbody>
         {tableData.map((item, index) => (
-          <tr key={index} classnamw="bg-white ">
-            <td class="w-4 p-4">
-              <div class="flex items-center">
-                <input
-                  id={`checkbox-table-search-${index}`}
-                  type="checkbox"
-                  checked={item.isChecked}
-                  onChange={() => handleCheckboxChange(index)}
-                  className="w-4 h-4 bg-gray-100 "
-                />
-              </div>
-            </td>
-
+          <tr key={index} classname="bg-white ">
             <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black object-cover transform duration-700 backdrop-opacity-100 hover:scale-125">
               {item.name}
             </td>
@@ -101,4 +89,4 @@ const MyTable = () => {
   );
 };
 
-export default MyTable;
+export default ComplexTable;

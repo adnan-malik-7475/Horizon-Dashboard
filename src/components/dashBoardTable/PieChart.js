@@ -17,8 +17,8 @@ const Pieoption = {
       name: "Access From",
       type: "pie",
       radius: "50%",
-      label:{
-        show: false
+      label: {
+        show: false,
       },
       data: [{ value: 1048 }, { value: 290 }, { value: 350 }],
       emphasis: {

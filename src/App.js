@@ -7,7 +7,6 @@ import {
   Link,
 } from "react-router-dom";
 
-
 import "./App.css";
 import MainDashbaord from "./pages/mainDashboard";
 import MarketPlace from "./pages/marketPlace";
@@ -18,38 +17,36 @@ import Admin from "./pages/admin";
 
 const router = createBrowserRouter([
   {
-    path: "/mainDashboard",
-    element: <MainDashbaord/>,
+    path: "/",
+    element: <MainDashbaord />,
   },
   {
     path: "/marketPlace",
-    element: <MarketPlace/>,
+    element: <MarketPlace />,
   },
   {
     path: "/dataTables",
-    element: <DataTables/>,
+    element: <DataTables />,
   },
   {
     path: "/profile",
-    element: <Profile/>,
+    element: <Profile />,
   },
   {
     path: "/signup",
-    element: <SignUp/>,
+    element: <SignUp />,
   },
   {
     path: "/admin",
-    element: <Admin/>,
+    element: <Admin />,
   },
-
 ]);
 function App() {
   return (
-
-<div>
- 
+    <div>
       <RouterProvider router={router} />
-      </div> 
-      )}
+    </div>
+  );
+}
 
 export default App;

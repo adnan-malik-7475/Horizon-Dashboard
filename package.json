@@ -46,6 +46,20 @@
     ]
   },
   "devDependencies": {
+    "prettier": "^3.1.0",
     "tailwindcss": "^3.3.3"
-  }
+  },
+
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnan-malik-7475/Learn-React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adnan-malik-7475/Learn-React/issues"
+  },
+  "homepage": "https://github.com/adnan-malik-7475/Learn-React#readme"
 }

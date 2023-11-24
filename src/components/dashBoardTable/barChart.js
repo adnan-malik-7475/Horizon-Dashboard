@@ -36,9 +36,7 @@ const barChartOption = {
     },
   ],
 };
-
 function BarChart() {
   return <ReactECharts option={barChartOption} style={{ height: "400px" }} />;
 }
-
 export default BarChart;
